@@ -59,15 +59,15 @@ const Index = () => {
             backgroundPosition: 'center',
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/80 to-background"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background"></div>
         </div>
         
         <div className="container mx-auto px-4 z-10 text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary-foreground animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground animate-fade-in">
               Ensure Academic Integrity with AI-Powered Certificate Verification
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 animate-fade-in">
+            <p className="text-xl md:text-2xl mb-8 text-muted-foreground animate-fade-in">
               Detect fake degrees and verify academic documents instantly with VERIFAI.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in">
@@ -78,7 +78,7 @@ const Index = () => {
                 Start Verification
               </Button>
             </div>
-            <p className="text-primary-foreground/70 text-sm">
+            <p className="text-muted-foreground text-sm">
               Validate. Trust. Verify — with VERIFAI.
             </p>
           </div>
@@ -406,7 +406,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary text-primary-foreground py-12">
+      <footer className="bg-card border-t border-border py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -414,39 +414,39 @@ const Index = () => {
                 <Shield className="w-8 h-8" />
                 <span className="text-2xl font-bold">VERIFAI</span>
               </div>
-              <p className="text-primary-foreground/80 text-sm">
+              <p className="text-muted-foreground text-sm">
                 Building Trust in Education.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Product</h3>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li><a href="#features" className="hover:text-primary-foreground transition-smooth">Features</a></li>
-                <li><a href="#how-it-works" className="hover:text-primary-foreground transition-smooth">How It Works</a></li>
-                <li><a href="#pricing" className="hover:text-primary-foreground transition-smooth">Pricing</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">API Docs</a></li>
+              <h3 className="font-semibold mb-4 text-foreground">Product</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><a href="#features" className="hover:text-foreground transition-smooth">Features</a></li>
+                <li><a href="#how-it-works" className="hover:text-foreground transition-smooth">How It Works</a></li>
+                <li><a href="#pricing" className="hover:text-foreground transition-smooth">Pricing</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">API Docs</a></li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Company</h3>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">About Us</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Careers</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Contact</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Blog</a></li>
+              <h3 className="font-semibold mb-4 text-foreground">Company</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><a href="#" className="hover:text-foreground transition-smooth">About Us</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Careers</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Contact</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Blog</a></li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Cookie Policy</a></li>
-                <li><a href="#" className="hover:text-primary-foreground transition-smooth">Compliance</a></li>
+              <h3 className="font-semibold mb-4 text-foreground">Legal</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li><a href="#" className="hover:text-foreground transition-smooth">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Cookie Policy</a></li>
+                <li><a href="#" className="hover:text-foreground transition-smooth">Compliance</a></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/80">
+          <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
             <p>© 2025 VERIFAI Technologies Pvt. Ltd. All rights reserved.</p>
           </div>
         </div>
