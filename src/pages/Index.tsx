@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FeatureCard } from "@/components/FeatureCard";
+import { Link } from "react-router-dom";
 import { StepCard } from "@/components/StepCard";
 import { PricingCard } from "@/components/PricingCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -44,7 +45,9 @@ const Index = () => {
           </div>
           <div className="flex items-center gap-3">
             <Button variant="ghost">Sign In</Button>
-            <Button variant="hero">Request Demo</Button>
+            <Button variant="hero" asChild>
+              <Link to="/request-demo">Request Demo</Link>
+            </Button>
           </div>
         </div>
       </nav>
@@ -71,11 +74,11 @@ const Index = () => {
               Detect fake degrees and verify academic documents instantly with VERIFAI.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in">
-              <Button variant="hero" size="lg" className="text-lg px-8">
-                Request Demo
+              <Button variant="hero" size="lg" className="text-lg px-8" asChild>
+                <Link to="/request-demo">Request Demo</Link>
               </Button>
-              <Button variant="secondary" size="lg" className="text-lg px-8">
-                Start Verification
+              <Button variant="secondary" size="lg" className="text-lg px-8" asChild>
+                <Link to="/request-demo">Start Verification</Link>
               </Button>
             </div>
             <p className="text-muted-foreground text-sm">
